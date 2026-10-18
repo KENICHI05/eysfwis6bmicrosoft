@@ -62,3 +62,11 @@ http://localhost/eysfwis/
 - **Developer Backend:** Andres (Andres7317)
 - **Developer Backend:** Diego (diego1081999)
 - **Developer Frontend:** Jimar (jimar231)
+
+## 🚀 Guía de Ejecución Local
+
+### Backend (CodeIgniter)
+1. Iniciar servidor local:
+   ```bash
+   php spark serve
+La API estará disponible en http://localhost:8080.
