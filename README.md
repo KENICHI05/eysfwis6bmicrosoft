@@ -55,3 +55,10 @@ o directamente:
 ```
 http://localhost/eysfwis/
 ```
+
+## 👥 Equipo de Trabajo (Scrum)
+- **Product Owner:** Juan Bedoya (juanbedoya25)
+- **Scrum Master:** Kenneth Cedeño (KENICHI05)
+- **Developer Backend:** Andres (Andres7317)
+- **Developer Backend:** Diego (diego1081999)
+- **Developer Frontend:** Jimar (jimar231)
