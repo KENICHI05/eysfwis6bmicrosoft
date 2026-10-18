@@ -120,3 +120,11 @@ $routes->group('correo', static function ($routes) {
     $routes->post('update/(:num)', 'Correo::update/$1');
     $routes->match(['get', 'post'], 'delete/(:num)', 'Correo::delete/$1');
 });
+
+// Rutas API RESTful para el proyecto Scrum
+$routes->resource('persona');
+$routes->resource('sexo');
+$routes->resource('correo');
+$routes->resource('direccion');
+$routes->resource('telefono');
+$routes->resource('estadocivil');
