@@ -51,6 +51,7 @@ class Filters extends BaseFilters
      */
     public array $required = [
         'before' => [
+            'cors', // Habilitado para comunicación con Flutter
             'forcehttps', // Force Global Secure Requests
             'pagecache',  // Web Page Caching
         ],
@@ -69,6 +70,7 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
+            'cors', // Habilitado para comunicación con Flutter
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
@@ -99,7 +101,8 @@ class Filters extends BaseFilters
      * before or after URI patterns.
      *
      * Example:
-     * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
+     * 'isLoggedIn' => ['before' => [
+            'cors', // Habilitado para comunicación con Flutter'account/*', 'profiles/*']]
      *
      * @var array<string, array<string, list<string>>>
      */
