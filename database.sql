@@ -1,3 +1,4 @@
+-- Proyecto Integrador: Backend CodeIgniter 4 y App Móvil Flutter - Grupo Scrum
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.19  Distrib 10.11.18-MariaDB, for Linux (x86_64)
 --
