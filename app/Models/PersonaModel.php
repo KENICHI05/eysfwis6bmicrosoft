@@ -3,5 +3,6 @@ use CodeIgniter\Model;
 class PersonaModel extends Model {
     protected $table = 'persona';
     protected $primaryKey = 'id_persona';
+    protected $useTimestamps = false;
     protected $allowedFields = ['nombres', 'apellidos', 'cedula', 'id_sexo', 'id_estado_civil'];
 }
