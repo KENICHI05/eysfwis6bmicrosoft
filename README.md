@@ -70,3 +70,6 @@ http://localhost/eysfwis/
    ```bash
    php spark serve
 La API estará disponible en http://localhost:8080.
+
+## 📄 Licencia y Documentación
+Consultar la carpeta `/docs` para ver historias de usuario y criterios de aceptación.
