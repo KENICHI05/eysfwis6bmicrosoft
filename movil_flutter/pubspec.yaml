@@ -1,0 +1,4 @@
+name: movil_flutter
+description: App Flutter CRUD
+dependencies:
+  http: ^1.1.0
